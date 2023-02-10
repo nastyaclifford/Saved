@@ -1,0 +1,12 @@
+<!--Nastya, main_big card, START-->
+.card_selected__column{
+    background-image: url(friendsoftype_background.png);
+}
+
+.link_friendsoftype{
+    color: #FD4300;
+}
+.card-text_additional{
+    margin-top: 55px;
+}
+<!--Nastya, main_big card, END-->
