@@ -1,6 +1,6 @@
 /*Header*/
 .header-container{
-    width:auto
+    max-width: 1440px;
     }
     .header-line{
         padding-top: 15px;
@@ -16,14 +16,22 @@
         font-weight: 400;
         font-size: 16px;
     }
-        .header-logo{
-        margin-right: 12px;
-    }
     .nav-item:hover{
         color:gray;
         transition: color 0.3 linear;
     }
-    
+    .nav-item__search{
+        text-decoration: none;
+        color:#C1C1C1;
+        font-family: 'Cotham Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .nav-item__search:hover{
+        color:gray;
+        transition: color 0.3 linear;
+    }
     .header-text{
         font-family: 'Cotham Sans', sans-serif;
         font-weight: 400;
@@ -38,7 +46,12 @@
         font-weight: 400;
         font-size: 30px;
         color: #1D1D1D;
+        margin-right: 12px;
     }
+    .header-info{
+        display: flex;
+        margin-top: 13px;
+        }
     .button{
         text-decoration: none;
         font-weight: 400;
@@ -55,7 +68,5 @@
         flex-direction: column;
         justify-content: center;
     }
-    .header-info{
-    display: flex;
-    }
+    
     
