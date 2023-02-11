@@ -73,5 +73,8 @@
         color: #C1C1C1;
         font-size: 16px;
     }
+    .nav-link:hover {
+        color: grey;
+    }
     /*nav конец*/
     
