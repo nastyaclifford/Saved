@@ -1,5 +1,6 @@
 .card-img-top {
-  background-color: #f5f5f5;
+  width: ;
+  width: ;
 }
 .main__content {
   text-align: start;
@@ -9,6 +10,10 @@
 .title {
   font-size: 20px;
 }
+.card-group {
+  justify-content: space-between;
+}
+
 /*Header*/
 .header-container {
   max-width: 1440px;
