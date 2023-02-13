@@ -1,8 +1,20 @@
+.card-img-top {
+  background-color: #f5f5f5;
+}
+.main__content {
+  text-align: start;
+  padding: 10px;
+  justify-items: start;
+}
+.title {
+  font-size: 20px;
+}
 /*Header*/
 
 .header-container{
     max-width: 1440px;
     }
+
     .header-line{
         padding-top: 15px;
         display: flex;
@@ -71,3 +83,130 @@
     }
     
     
+.header-container {
+    max-width: 1440px;
+}
+.header-line {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item {
+    text-decoration: none;
+    color: black;
+    font-family: "Cotham Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.nav-item:hover {
+    color: gray;
+    transition: color 0.3 linear;
+}
+.nav-item__search {
+    text-decoration: none;
+    color: #c1c1c1;
+    font-family: "Cotham Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.nav-item__search:hover {
+    color: gray;
+    transition: color 0.3 linear;
+}
+.header-text {
+    font-family: "Cotham Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1d1d1d;
+}
+.nav {
+    align-items: center;
+}
+.header-logo {
+    font-family: "Cotham Sans", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #1d1d1d;
+    margin-right: 12px;
+}
+.header-info {
+    display: flex;
+    margin-top: 13px;
+}
+.button {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    border: none;
+}
+.button:hover {
+    color: grey;
+    transition: color 0.2 linear;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*nav начало*/
+.nav {
+    height: 80px;
+}
+.nav-link {
+    color: #c1c1c1;
+    font-size: 16px;
+}
+.nav-link:hover {
+    color: grey;
+}
+/*nav конец*/
+
+/*Footer*/
+.footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-title{
+    display: flex;
+    
+}
+.footer-logo{
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Cotham Sans", sans-serif;
+
+}
+.footer-text-image{
+display: flex;
+align-items: center;
+margin-left: 12px;
+margin-top: 20px;
+}
+.footer-link{
+    display: flex;
+    align-items: center;
+}
+.footer-btn{
+display: flex;
+flex-direction: column;
+margin-left: 30px;
+}
+.footer-info__link{
+    text-decoration: none;
+    color: #1D1D1D;
+    font-family: "Cotham Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer-info__link:hover {
+    color: gray;
+    transition: color 0.3 linear;
+}
