@@ -152,17 +152,41 @@
 /*header конец*/
 /*nav начало*/
 .nav {
-  height: 80px;
+  min-height: 5rem;
 }
 .nav-link {
   color: #c1c1c1;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .nav-link:hover {
-  color: grey;
+  color: black;
+}
+.nav-link-active {
+  color: #c1c1c1;
+}
+.nav-link-active:hover {
+  color: black;
+  text-decoration-color: red;
 }
 /*nav конец*/
-
+/*inspiration__tab начало*/
+.inspiration-tab__card-body {
+  font-family: "CothamSans", Helvetica, sans-serif;
+}
+.inspiration-tab__card-title {
+  font-size: 1.6rem;
+}
+.inspiration-tab__card-text {
+  font-size: 1rem;
+}
+.inspiration-tab__card-link {
+  font-size: 1.6rem;
+  color: red;
+}
+.inspiration-tab__card-link:hover {
+  color: black;
+}
+/*inspiration__tab конец*/
 /*Footer начало*/
 .footer-info {
   display: flex;
