@@ -1,3 +1,9 @@
+/* Ksenia fonts начало */
+@font-face {
+	font-family: 'CothamSans'; 
+	src: url(/assets/fonts/CothamSans.otf); 
+}
+/* Ksenia fonts конец */
 /*main*/
 .title {
   font-size: 20px;
