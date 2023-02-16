@@ -1,7 +1,14 @@
+/* Ksenia fonts начало */
+@font-face {
+	font-family: 'CothamSans'; 
+	src: url(/assets/fonts/CothamSans.otf); 
+}
+/* Ksenia fonts конец */
 /*main*/
 .title {
   font-size: 20px;
 }
+
 
 /*Header начало*/
 
@@ -152,22 +159,80 @@
 /*header конец*/
 /*nav начало*/
 .nav {
-  height: 80px;
+  min-height: 5rem;
 }
 .nav-link {
   color: #c1c1c1;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .nav-link:hover {
-  color: grey;
+  color: black;
+}
+.nav-link-active {
+  color: #c1c1c1;
+}
+.nav-link-active:hover {
+  color: black;
+  text-decoration-color: red;
 }
 /*nav конец*/
-
+/*Nastya main card start*/
+.content__card_link {
+  font-family: "CothamSans", Helvetica, sans-serif;
+}
+/*Nastya main card finish*/
+/*inspiration__tab начало*/
+.inspiration-tab__card-body, .card__text_bottom-text {
+  font-family: "CothamSans", Helvetica, sans-serif;
+}
+.inspiration-tab__card-title {
+  font-size: 1.6rem;
+}
+.inspiration-tab__card-text {
+  font-size: 1rem;
+}
+.inspiration-tab__card-link {
+  font-size: 1.6rem;
+  color: red;
+}
+.inspiration-tab__card-link:hover {
+  color: black;
+}
+/*inspiration__tab конец*/
+/*Nastya suggestproduct_page start*/
+.input-card__card-link, .input_placeholder {
+  font-family: "CothamSans", Helvetica, sans-serif;
+}
+/*Nastya suggestproduct_page end*/
 /*Footer начало*/
 .footer-info {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   justify-content: space-between;
+=======
+  justify-content: space-between;}
+  
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-content{
+    display: flex;
+    
+}
+.footer-logo{
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Cotham Sans", sans-serif;
+
+>>>>>>> e93a7c26339b087ba63008659bc9fc8c2393fa18
 }
 .footer-info {
   display: flex;
@@ -238,3 +303,4 @@
   }
 }
 /*Footer конец*/
+
