@@ -224,9 +224,10 @@
 }
 /*main__study-offer конец*/
 /*Nastya suggestproduct_page start*/
-.input-card__card-link, .input_placeholder {
+.suggestproduct__link, .input_placeholder {
   font-family: "CothamSans", Helvetica, sans-serif;
 }
+
 /*Nastya suggestproduct_page end*/
 /*Footer начало*/
 .footer-info{
@@ -335,22 +336,31 @@
     justify-content: flex-end;
 }
 
-.link{
-    font-family: 'Cotham Sans';
+.openinformation__link{
+    font-family: "CothamSans", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 16px; 
     color: #FD4300;
 }
-.text{
-    font-family: 'Cotham Sans';
+.openinformation__text{
+    font-family: "CothamSans", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 30px;
     color: #1D1D1D;
 }
+.openinformation__subtext{
+    font-family: "CothamSans", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;}
+
+.openinformation__name {
+  font-family: "CothamSans", Helvetica, sans-serif;
+}
+
 @media screen and (max-width: 600px)
 {
-    .text{
-        font-family: 'Cotham Sans';
+    .openinformation__text{
+        font-family: "CothamSans", Helvetica, sans-serif;
         font-weight: 400;
         font-size: 18px;
     }
@@ -360,31 +370,23 @@ span{
     color: #FD4300;
 }
 
-.subtext{
-    font-family: 'Cotham Sans';
+.openinformation__subtext{
+    font-family: "CothamSans", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #1D1D1D;
     margin-top: 100px;
 }
 
-.name{
-    font-family: 'Cotham Sans';
+.openinformation__name{
+    font-family: "CothamSans", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #C1C1C1;
-    margin-bottom: 110px;
+    margin-top: 110px;
 }
 
-.suggest-product__link{
-    font-family: 'Cotham Sans';
-    font-weight: 400;
-    font-size: 30px;
-    color: #FD4300;
-    text-decoration: none;
-}
-
-.suggest-product__link:hover{
+.suggestproduct__link:hover{
     color:#f76632;
     transition: color 0.3 linear;
 }
