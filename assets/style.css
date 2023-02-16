@@ -168,31 +168,30 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-.footer-info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
-.footer-content{
-    display: flex;
-    
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.footer-logo{
-    font-weight: 400;
-    font-size: 30px;
-    margin-top: 10px;
+.footer-content {
+  display: flex;
 }
-.footer-text{
-    font-weight: 400;
-    font-size: 14px;
-    font-family: "Cotham Sans", sans-serif;
-
+.footer-logo {
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 10px;
 }
-.footer-text-image{
-display: flex;
-align-items: center;
-margin-left: 12px;
-margin-top: 20px;
+.footer-text {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Cotham Sans", sans-serif;
+}
+.footer-text-image {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  margin-top: 20px;
 }
 .footer-title {
   display: flex;
