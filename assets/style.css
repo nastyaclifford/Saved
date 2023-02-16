@@ -1,16 +1,20 @@
+/* Ksenia fonts начало */
+@font-face {
+	font-family: 'CothamSans'; 
+	src: url(/assets/fonts/CothamSans.otf); 
+}
+/* Ksenia fonts конец */
 /*main*/
 .title {
   font-size: 20px;
 }
-.card-group {
-  justify-content: space-between;
-}
+
 
 /*Header начало*/
 
-.header-container{
-    max-width: 1440px;
-    }
+.header-container {
+  max-width: 1440px;
+}
 
     .header-line{
         padding-top: 15px;
@@ -20,8 +24,9 @@
     }
     .nav-item{
         text-decoration: none;
-        color:#1D1D1D;
+        color: black;
         font-family: 'Cotham Sans', sans-serif;
+        font-style: normal;
         font-weight: 400;
         font-size: 16px;
     }
@@ -33,6 +38,7 @@
         text-decoration: none;
         color:#C1C1C1;
         font-family: 'Cotham Sans', sans-serif;
+        font-style: normal;
         font-weight: 400;
         font-size: 16px;
     }
@@ -79,95 +85,133 @@
     
     
 .header-container {
-    max-width: 1440px;
+  max-width: 1440px;
 }
 .header-line {
-    padding-top: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .nav-item {
-    text-decoration: none;
-    color: black;
-    font-family: "Cotham Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-family: "Cotham Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 .nav-item:hover {
-    color: gray;
-    transition: color 0.3 linear;
+  color: gray;
+  transition: color 0.3 linear;
 }
 .nav-item__search {
-    text-decoration: none;
-    color: #c1c1c1;
-    font-family: "Cotham Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+  text-decoration: none;
+  color: #c1c1c1;
+  font-family: "Cotham Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 .nav-item__search:hover {
-    color: gray;
-    transition: color 0.3 linear;
+  color: gray;
+  transition: color 0.3 linear;
 }
 .header-text {
-    font-family: "Cotham Sans", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #1d1d1d;
+  font-family: "Cotham Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1d1d1d;
 }
 .nav {
-    align-items: center;
+  align-items: center;
 }
 .header-logo {
-    font-family: "Cotham Sans", sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    color: #1d1d1d;
-    margin-right: 12px;
+  font-family: "Cotham Sans", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #1d1d1d;
+  margin-right: 12px;
 }
 .header-info {
-    display: flex;
-    margin-top: 13px;
+  display: flex;
+  margin-top: 13px;
 }
 .button {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    color: black;
-    border: none;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  border: none;
 }
 .button:hover {
-    color: grey;
-    transition: color 0.2 linear;
+  color: grey;
+  transition: color 0.2 linear;
 }
 .btn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-@media screen and (max-width: 600px)
-    {
-        .header-text{
-            display: none;
-        }
-    }
+@media screen and (max-width: 600px) {
+  .header-text {
+    display: none;
+  }
+}
 
 /*header конец*/
 /*nav начало*/
 .nav {
-    height: 80px;
+  min-height: 5rem;
 }
 .nav-link {
-    color: #c1c1c1;
-    font-size: 16px;
+  color: #c1c1c1;
+  font-size: 1rem;
 }
 .nav-link:hover {
-    color: grey;
+  color: black;
+}
+.nav-link-active {
+  color: #c1c1c1;
+}
+.nav-link-active:hover {
+  color: black;
+  text-decoration-color: red;
 }
 /*nav конец*/
-
+/*Nastya main card start*/
+.content__card_link {
+  font-family: "CothamSans", Helvetica, sans-serif;
+}
+/*Nastya main card finish*/
+/*inspiration__tab начало*/
+.inspiration-tab__card-body, .card__text_bottom-text {
+  font-family: "CothamSans", Helvetica, sans-serif;
+}
+.inspiration-tab__card-title {
+  font-size: 1.6rem;
+}
+.inspiration-tab__card-text {
+  font-size: 1rem;
+}
+.inspiration-tab__card-link {
+  font-size: 1.6rem;
+  color: red;
+}
+.inspiration-tab__card-link:hover {
+  color: black;
+}
+/*inspiration__tab конец*/
+/*Nastya suggestproduct_page start*/
+.input-card__card-link, .input_placeholder {
+  font-family: "CothamSans", Helvetica, sans-serif;
+}
+/*Nastya suggestproduct_page end*/
 /*Footer начало*/
 .footer-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;}
+  
+.footer-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -187,132 +231,72 @@
     font-family: "Cotham Sans", sans-serif;
 
 }
-.footer-text-image{
-display: flex;
-align-items: center;
-margin-left: 12px;
-margin-top: 20px;
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.footer-link{
-    display: flex;
-    align-items: center;
+.footer-content {
+  display: flex;
 }
-.footer-btn{
-display: flex;
-flex-direction: column;
-margin-left: 30px;
+.footer-logo {
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 10px;
 }
-.footer-info__link{
-    text-decoration: none;
-    color: #1D1D1D;
-    font-family: "Cotham Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+.footer-text {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Cotham Sans", sans-serif;
+}
+.footer-text-image {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+.footer-title {
+  display: flex;
+}
+.footer-logo {
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Cotham Sans", sans-serif;
+}
+.footer-text-image {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+.footer-link {
+  display: flex;
+  align-items: center;
+}
+.footer-btn {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.footer-info__link {
+  text-decoration: none;
+  color: #1d1d1d;
+  font-family: "Cotham Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 .footer-info__link:hover {
-    color: gray;
-    transition: color 0.3 linear;
+  color: gray;
+  transition: color 0.3 linear;
 }
-@media screen and (max-width: 600px)
-    {
-        .footer-text-image{
-            display: none;
-        }
-    }
+@media screen and (max-width: 600px) {
+  .footer-text-image {
+    display: none;
+  }
+}
 /*Footer конец*/
-
-/* Aida- Open/Close Info */
-.container{
-    width: 100%;
-    height: 100vh;
-}
-
-.header-content{
-    margin-right: 143px;
-}
-.nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.link{
-    font-family: 'Cotham Sans',sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #FD4300;
-}
-.main{
-    width: 824px;
-}
-.text{
-    font-family: 'Cotham Sans', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    color: #1D1D1D;
-}
-@media screen and (max-width: 600px)
-{
-    .text{
-        font-family: 'Cotham Sans', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        color: #1D1D1D;
-        width: 277px;
-    }
-    }
-span{
-color:#FD4300
-}
-.subtext{
-    font-family: 'Cotham Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18px;  
-    color: #1D1D1D;
-    margin-top: 100px;
-}
-@media screen and (max-width: 600px)
-{
-    .subtext{
-        font-family: 'Cotham Sans', sans-serif;
-        font-weight: 400;
-        font-size: 18px;  
-        color: #1D1D1D;
-        margin-top: 100px;
-        width: 277px;
-    }
-    }
-.name{
-    font-family: 'Cotham Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: #C1C1C1;
-    margin-bottom: 80px;
-
-}
-.suggest-product__link{
-    text-decoration: none;
-    font-family: 'Cotham Sans', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    color: #FD4300;
-}
-
-.suggest-product__link:hover{
-    color:#f58056;
-    transition: color 0.3 linear;
-}
-.footer-closeinfo{
-    margin-right: 143px;
-}
-.footer-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-@media screen and (max-width: 600px)
-{
-    .footer-content {
-        display: none;
-    }
-}
