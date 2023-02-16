@@ -62,9 +62,9 @@
   color: #1d1d1d;
   margin-right: 12px;
 }
-/*.header-logo:hover{
+.header-logo:hover{
   color:black;
-}*/
+}
 .header-info {
   display: flex;
   margin-top: 13px;
@@ -224,8 +224,15 @@
 }
 /*main__study-offer конец*/
 /*Nastya suggestproduct_page start*/
-.suggestproduct__link, .input_placeholder {
+.input_placeholder {
   font-family: "CothamSans", Helvetica, sans-serif;
+}
+.suggestproduct__link{
+  font-family: "CothamSans", Helvetica, sans-serif;
+  color: red;
+}
+.suggestproduct__link:hover {
+  color: black;
 }
 
 /*Nastya suggestproduct_page end*/
@@ -248,6 +255,10 @@
     font-weight: 400;
     font-size: 30px;
     margin-top: 10px;
+    color: black;
+}
+.footer-logo:hover {
+  color: black;
 }
 .footer-text{
     font-weight: 400;
@@ -268,6 +279,7 @@
   font-size: 30px;
   margin-top: 10px;
 }
+
 .footer-text {
   font-weight: 400;
   font-size: 14px;
@@ -384,11 +396,6 @@ span{
     font-size: 18px;
     color: #C1C1C1;
     margin-top: 110px;
-}
-
-.suggestproduct__link:hover{
-    color:#f76632;
-    transition: color 0.3 linear;
 }
 
 .footer-closeinfo{
