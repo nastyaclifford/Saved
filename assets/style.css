@@ -193,6 +193,27 @@
   color: black;
 }
 /*inspiration__tab конец*/
+/*main__study-offer начало*/
+.main__study-offer {
+  min-height: 40rem;
+}
+.study-offer__card-body {
+  font-family: "CothamSans", Helvetica, sans-serif;
+}
+.study-offer__card-title {
+  font-size: 1.6rem;
+}
+.study-offer__card-text {
+  font-size: 1rem;
+}
+.study-offer__card-link {
+  font-size: 1.6rem;
+  color: red;
+}
+.study-offer__card-link:hover {
+  color: black;
+}
+/*main__study-offer конец*/
 /*Footer начало*/
 .footer-info {
   display: flex;
