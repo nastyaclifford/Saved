@@ -176,8 +176,13 @@
   text-decoration-color: red;
 }
 /*nav конец*/
+/*Nastya main card start*/
+.content__card_link {
+  font-family: "CothamSans", Helvetica, sans-serif;
+}
+/*Nastya main card finish*/
 /*inspiration__tab начало*/
-.inspiration-tab__card-body {
+.inspiration-tab__card-body, .card__text_bottom-text {
   font-family: "CothamSans", Helvetica, sans-serif;
 }
 .inspiration-tab__card-title {
@@ -203,8 +208,9 @@
 .footer-info {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-.footer-info{
+  justify-content: space-between;}
+  
+.footer-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
