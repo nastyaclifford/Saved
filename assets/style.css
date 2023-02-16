@@ -8,6 +8,11 @@
 .title {
   font-size: 20px;
 }
+/*Nastya suggestproduct_page start*/
+.input-card__card-link, .input_placeholder {
+  font-family: "CothamSans", Helvetica, sans-serif;
+}
+/*Nastya suggestproduct_page end*/
 
 /*Header начало*/
 
