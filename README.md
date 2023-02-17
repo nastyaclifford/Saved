@@ -18,17 +18,18 @@
 
 **Сайт состоит из 6 страниц:** 
 
-Главная (Homepage) - [index](https://github.com/nastyaclifford/47_Group_Project/blob/main/index.html)
+1) Главная (Homepage) - [index](https://github.com/nastyaclifford/47_Group_Project/blob/main/index.html)
 
-Вкладка 00. All - [all.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/all.html)
+2) Вкладка 00. All - [all.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/all.html)
 
-Вкладка 01. Inspiration - [inspiration.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/inspiration.html)
+3) Вкладка 01. Inspiration - [inspiration.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/inspiration.html)
 
-Информация (переход по значку OpenInfo в правом верхем и нижнем углу страницы) - [openinfo.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/openinfo.html)
+4) Информация (переход по значку OpenInfo в правом верхем и нижнем углу страницы) - [openinfo.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/openinfo.html)
 
-Страница, где можно предложить продукт Suggest Product (переход осуществляется со страницы OpenInfo) - [suggestproduct.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/suggestproduct.html) 
+5) Страница, где можно предложить продукт Suggest Product (переход осуществляется со страницы OpenInfo) - [suggestproduct.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/suggestproduct.html) 
 
-Страница Study Offer (открывается после ввода данных на странице Suggest Product) - [studyoffer.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/studyoffer.html) 
+6) Страница Study Offer (открывается после ввода данных на странице Suggest Product) - [studyoffer.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/studyoffer.html) 
+
 
 Все страницы взаимосвязаны между собой и имеют переходы по ссылкам. 
 
@@ -40,6 +41,8 @@
 - HTML5 (grid, flex)
 - CSS
 - GitHub
+
+Помимо Bootstrap и его элементов и доступных функций, мы также применяли дополнительные стили, которые позволили нам сделать максимально приближенный к макету дизайн. Их можно найти в папке assets. 
 
 ## Используемые элементы и компоненты Bootstrap
 
