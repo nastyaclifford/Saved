@@ -40,7 +40,6 @@
 
 .nav-item__search:hover {
   color: gray;
-  transition: color 0.3 linear;
 }
 
 .nav {
@@ -53,12 +52,6 @@
   margin-top: 13px;
 }
 
-.header-line {
-  padding-top: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .nav-item {
   text-decoration: none;
   color: black;
@@ -68,7 +61,6 @@
 }
 .nav-item:hover {
   color: gray;
-  transition: color 0.3 linear;
 }
 .nav-item__search {
   text-decoration: none;
@@ -77,10 +69,7 @@
   font-weight: 400;
   font-size: 16px;
 }
-.nav-item__search:hover {
-  color: gray;
-  transition: color 0.3 linear;
-}
+
 .header-text 
 {
   font-family: "Cotham Sans", sans-serif;
@@ -109,7 +98,6 @@
 }
 .button:hover {
   color: grey;
-  transition: color 0.2 linear;
 }
 
 @media screen and (max-width: 600px) {
@@ -291,7 +279,6 @@
 }
 .footer-info__link:hover {
   color: gray;
-  transition: color 0.3 linear;
 }
 @media screen and (max-width: 600px) {
   .footer-text-image {
