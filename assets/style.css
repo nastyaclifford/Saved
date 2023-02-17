@@ -197,6 +197,27 @@
   color: black;
 }
 /*inspiration__tab конец*/
+/*main__study-offer начало*/
+.main__study-offer {
+  min-height: 40rem;
+}
+.study-offer__card-body {
+  font-family: "CothamSans", Helvetica, sans-serif;
+}
+.study-offer__card-title {
+  font-size: 1.6rem;
+}
+.study-offer__card-text {
+  font-size: 1rem;
+}
+.study-offer__card-link {
+  font-size: 1.6rem;
+  color: red;
+}
+.study-offer__card-link:hover {
+  color: black;
+}
+/*main__study-offer конец*/
 /*Nastya suggestproduct_page start*/
 .input-card__card-link, .input_placeholder {
   font-family: "CothamSans", Helvetica, sans-serif;
@@ -310,13 +331,13 @@
 }
 
 .instruction{
-    font-family: 'Cotham Sans';
+    font-family: 'Cotham Sans', sans-serif;
     font-weight: 400;
     font-size: 16px; 
     color: #FD4300;
 }
 .text{
-    font-family: 'Cotham Sans';
+    font-family: 'Cotham Sans', sans-serif;
     font-weight: 400;
     font-size: 30px;
     color: #1D1D1D;
@@ -324,7 +345,7 @@
 @media screen and (max-width: 600px)
 {
     .text{
-        font-family: 'Cotham Sans';
+        font-family: 'Cotham Sans', sans-serif;
         font-weight: 400;
         font-size: 18px;
     }
@@ -335,7 +356,7 @@ span{
 }
 
 .subtext{
-    font-family: 'Cotham Sans';
+    font-family: 'Cotham Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #1D1D1D;
@@ -343,7 +364,7 @@ span{
 }
 
 .name{
-    font-family: 'Cotham Sans';
+    font-family: 'Cotham Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #C1C1C1;
@@ -351,7 +372,7 @@ span{
 }
 
 .suggest-product__link{
-    font-family: 'Cotham Sans';
+    font-family: 'Cotham Sans', sans-serif;
     font-weight: 400;
     font-size: 30px;
     color: #FD4300;
