@@ -15,6 +15,43 @@
 .header-container {
   max-width: 1440px;
 }
+.header-line {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item__search-box {
+  text-decoration: none;
+  color: #c1c1c1;
+  font-family: "Cotham Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.search-txt{
+  border: none;
+  font-family: 'Cotham Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav-item__search:hover {
+  color: gray;
+  transition: color 0.3 linear;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+}
+
+.header-info {
+  display: flex;
+  margin-top: 13px;
+}
 
 .header-line {
   padding-top: 15px;
@@ -26,7 +63,6 @@
   text-decoration: none;
   color: black;
   font-family: "Cotham Sans", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
 }
@@ -38,7 +74,6 @@
   text-decoration: none;
   color: #c1c1c1;
   font-family: "Cotham Sans", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
 }
@@ -46,15 +81,14 @@
   color: gray;
   transition: color 0.3 linear;
 }
-.header-text {
+.header-text 
+{
   font-family: "Cotham Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #1d1d1d;
 }
-.nav {
-  align-items: center;
-}
+
 .header-logo {
   font-family: "Cotham Sans", sans-serif;
   font-weight: 400;
@@ -65,12 +99,9 @@
 .header-logo:hover{
   color:black;
 }
-.header-info {
-  display: flex;
-  margin-top: 13px;
-}
 .button {
   text-decoration: none;
+  display: flex;
   font-weight: 400;
   font-size: 16px;
   color: black;
@@ -79,80 +110,8 @@
 .button:hover {
   color: grey;
   transition: color 0.2 linear;
-}
-.btn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
-.header-container {
-  max-width: 1440px;
-}
-.header-line {
-  padding-top: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav-item {
-  text-decoration: none;
-  color: black;
-  font-family: "Cotham Sans", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-}
-.nav-item:hover {
-  color: gray;
-  transition: color 0.3 linear;
-}
-.nav-item__search {
-  text-decoration: none;
-  color: #c1c1c1;
-  font-family: "Cotham Sans", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-}
-.nav-item__search:hover {
-  color: gray;
-  transition: color 0.3 linear;
-}
-.header-text {
-  font-family: "Cotham Sans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #1d1d1d;
-}
-.nav {
-  align-items: center;
-}
-.header-logo {
-  font-family: "Cotham Sans", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  color: #1d1d1d;
-  margin-right: 12px;
-}
-.header-info {
-  display: flex;
-  margin-top: 13px;
-}
-.button {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
-  color: black;
-  border: none;
-}
-.button:hover {
-  color: grey;
-  transition: color 0.2 linear;
-}
-.btn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 @media screen and (max-width: 600px) {
   .header-text {
     display: none;
