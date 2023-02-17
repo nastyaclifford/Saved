@@ -188,11 +188,11 @@
 .inspiration-tab__card-body, .card__text_bottom-text {
   font-family: "CothamSans", Helvetica, sans-serif;
 }
+.inspiration-tab__card-body{
+  margin-bottom: 6rem;
+}
 .inspiration-tab__card-title {
   font-size: 1.6rem;
-}
-.inspiration-tab__card-text {
-  font-size: 1rem;
 }
 .inspiration-tab__card-link {
   font-size: 1.6rem;
@@ -230,9 +230,13 @@
 .suggestproduct__link{
   font-family: "CothamSans", Helvetica, sans-serif;
   color: red;
+  
 }
 .suggestproduct__link:hover {
   color: black;
+}
+.suggestproduct__collumn-link {
+  margin-bottom: 10rem;
 }
 
 /*Nastya suggestproduct_page end*/
