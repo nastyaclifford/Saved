@@ -155,24 +155,24 @@ font-size: 1.1rem;
   color: black;
 }
 /*Ksenia inspiration__tab конец*/
-/*main__study-offer начало*/
-.main__study-offer {
+/*main__ additional-page начало*/
+.main__additional-page {
   min-height: 40rem;
 }
-.study-offer__card-body {
+.additional-page__card-body {
   font-family: "CothamSans", Helvetica, sans-serif;
 }
-.study-offer__card-title {
+.additional-page__card-title {
   font-size: 1.6rem;
 }
-.study-offer__card-text {
+.additional-page__card-text {
   font-size: 1rem;
 }
-.study-offer__card-link {
+.additional-page__card-link {
   font-size: 1.6rem;
   color: red;
 }
-.study-offer__card-link:hover {
+.additional-page__card-link:hover {
   color: black;
 }
 /*main__study-offer конец*/
