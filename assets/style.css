@@ -117,7 +117,7 @@
 }
 .nav-link {
   color: #c1c1c1;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .nav-link:hover {
   color: black;
@@ -135,12 +135,9 @@
   font-family: "CothamSans", Helvetica, sans-serif;
 }
 /*Nastya main card finish*/
-/*inspiration__tab начало*/
+/*Ksenia inspiration__tab начало*/
 .inspiration-tab__card-body, .card__text_bottom-text {
   font-family: "CothamSans", Helvetica, sans-serif;
-}
-.inspiration-tab__card-body{
-  margin-bottom: 6rem;
 }
 .inspiration-tab__card-title {
   font-size: 1.6rem;
@@ -152,7 +149,7 @@
 .inspiration-tab__card-link:hover {
   color: black;
 }
-/*inspiration__tab конец*/
+/*Ksenia inspiration__tab конец*/
 /*main__study-offer начало*/
 .main__study-offer {
   min-height: 40rem;
