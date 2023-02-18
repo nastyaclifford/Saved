@@ -1,6 +1,7 @@
 # 47_Group_Project
 
-# Проект вёрстки сайта для сохранения закладок “Saved”
+# Проект вёрстки сайта для сохранения закладок “Saved” 
+https://nastyaclifford.github.io/47_Group_Project/
 
 ### Многостраничный сайт, созданный на базе макета из фигмы https://www.figma.com/file/AmkWzwPirnkZ8QukrxADV9/saved.-bookmarks?node-id=0%3A1&t=T8xWTA0KyZYXrudv-0 в процессе обучения.
 
