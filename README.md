@@ -6,9 +6,10 @@
 
 ## Функциональность и описание сайта
 
-Проект был создан командой в рамках проектной работы в школе IT Girls. 
+Проект был создан командой в рамках проектной работы в школе IT Girls.
 
 **Задачи проекта были следующие:**
+
 - реализовать дизайн веб-сайта в соответствии с требованиями, представленными на макете
 - сайт должен быть адаптирован под компьютерную и мобильную версию
 - на сайте должны быть элементы взаимодействия с пользователем (ссылки, поля ввода, переходы между страницами)
@@ -16,22 +17,23 @@
 - должны быть соблюдены требования к написанию кода и применению стилей, которые были предоставлены нам заказчиком (наставницей)
 - важна была командная работа, умение взаимодействовать в команде
 
-**Сайт состоит из 6 страниц:** 
+**Сайт состоит из 7 страниц:**
 
-1) Главная (Homepage) - [index](https://github.com/nastyaclifford/47_Group_Project/blob/main/index.html)
+1. Главная (Homepage) - [index](https://github.com/nastyaclifford/47_Group_Project/blob/main/index.html)
 
-2) Вкладка 00. All - [all.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/all.html)
+2. Вкладка 00. All - [all.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/all.html)
 
-3) Вкладка 01. Inspiration - [inspiration.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/inspiration.html)
+3. Вкладка 01. Inspiration - [inspiration.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/inspiration.html)
 
-4) Информация (переход по значку OpenInfo в правом верхем и нижнем углу страницы) - [openinfo.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/openinfo.html)
+4. Информация (переход по значку OpenInfo в правом верхем и нижнем углу страницы) - [openinfo.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/openinfo.html)
 
-5) Страница, где можно предложить продукт Suggest Product (переход осуществляется со страницы OpenInfo) - [suggestproduct.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/suggestproduct.html) 
+5. Страница, где можно предложить продукт Suggest Product (переход осуществляется со страницы OpenInfo) - [suggestproduct.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/suggestproduct.html)
 
-6) Страница Study Offer (открывается после ввода данных на странице Suggest Product) - [studyoffer.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/studyoffer.html) 
+6. Страница Study Offer (открывается после ввода данных на странице Suggest Product) - [studyoffer.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/studyoffer.html)
 
+7. Страница Rushing To Fix (открывается при нажатии на ссылку "link is broken" на главной странице) - [rushingtofix.html] (https://github.com/nastyaclifford/47_Group_Project/blob/main/rushingtofix.html)
 
-Все страницы взаимосвязаны между собой и имеют переходы по ссылкам. 
+Все страницы взаимосвязаны между собой и имеют переходы по ссылкам.
 
 Сайт адаптирован для открытия его с разных размеров экрана (компьютерного и мобильного).
 
