@@ -10,7 +10,7 @@
 }
 
 
-/*Header начало*/
+/*Aida Header начало*/
 
 .header-container {
   max-width: 1440px;
@@ -110,9 +110,9 @@
     display:none;
   }
 }
-/*header конец*/
+/*Aida header конец*/
 /*nav начало*/
-.nav {
+.main__nav {
   min-height: 5rem;
 }
 .nav-link {
@@ -128,6 +128,11 @@
 .nav-link-active:hover {
   color: black;
   text-decoration-color: red;
+}
+@media screen and (min-width: 1400px) {
+  .nav-link {
+font-size: 1.1rem;
+  }
 }
 /*nav конец*/
 /*Nastya main card start*/
@@ -188,7 +193,7 @@
 }
 
 /*Nastya suggestproduct_page end*/
-/*Footer начало*/
+/* Aida Footer начало*/
 .footer-info{
   display: flex;
   align-items: center;
@@ -286,10 +291,10 @@
     display: none;
   }
 }
-/*Footer конец*/
+/*Aida Footer конец*/
 
 
-/* open info page*/
+/* Aida open info page beginning */
 .container{
     width: 100%;
     height: 100vh;
@@ -363,3 +368,4 @@ span{
         display: none;
     }
 }
+/* Aida open info page end*/
