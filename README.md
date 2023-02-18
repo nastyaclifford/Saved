@@ -31,7 +31,7 @@
 
 6. Страница Study Offer (открывается после ввода данных на странице Suggest Product) - [studyoffer.html](https://github.com/nastyaclifford/47_Group_Project/blob/main/studyoffer.html)
 
-7. Страница Rushing to fix (открывается при нажатии на ссылку "link is broken" на главной странице) - [rushingtofix.html] (https://github.com/nastyaclifford/47_Group_Project/blob/main/rushingtofix.html)
+7. Страница Rushing To Fix (открывается при нажатии на ссылку "link is broken" на главной странице) - [rushingtofix.html] (https://github.com/nastyaclifford/47_Group_Project/blob/main/rushingtofix.html)
 
 Все страницы взаимосвязаны между собой и имеют переходы по ссылкам.
 
