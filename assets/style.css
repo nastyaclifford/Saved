@@ -105,7 +105,11 @@
     display: none;
   }
 }
-
+@media screen and (max-width: 970px){
+  .btn {
+    display:none;
+  }
+}
 /*header конец*/
 /*nav начало*/
 .nav {
