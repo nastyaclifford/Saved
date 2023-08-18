@@ -18,3 +18,9 @@ https://www.figma.com/file/AmkWzwPirnkZ8QukrxADV9/saved.-bookmarks?node-id=0%3A1
 ## Set up instruction
 
 git clone [https://github.com/nastyaclifford/Saved.git]
+
+## Thanks to the project team! 
+
+[![Contributors](https://contrib.rocks/image?repo=nastyaclifford/Saved)](https://github.com/nastyaclifford/Saved/graphs/contributors)
+
+
