@@ -4,6 +4,8 @@
 
 https://nastyaclifford.github.io/Saved/
 
+<img align="center" width=800 src="Website_pics/BM_pic.png" />
+
 Design template 
 https://www.figma.com/file/AmkWzwPirnkZ8QukrxADV9/saved.-bookmarks?node-id=0%3A1&t=T8xWTA0KyZYXrudv-0 
 
