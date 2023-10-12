@@ -1,16 +1,6 @@
-/* Ksenia fonts начало */
-@font-face {
-	font-family: 'CothamSans'; 
-	src: url(/assets/fonts/CothamSans.otf); 
-}
-/* Ksenia fonts конец */
-/*main*/
 .title {
   font-size: 20px;
 }
-
-
-/*Aida Header начало*/
 
 .header-container {
   max-width: 1440px;
@@ -110,8 +100,7 @@
     display:none;
   }
 }
-/*Aida header конец*/
-/*nav начало*/
+
 .main__nav {
   min-height: 5rem;
 }
@@ -134,13 +123,11 @@
 font-size: 1.1rem;
   }
 }
-/*nav конец*/
-/*Nastya main card start*/
+
 .content__card_link {
   font-family: "CothamSans", Helvetica, sans-serif;
 }
-/*Nastya main card finish*/
-/*Ksenia inspiration__tab начало*/
+
 .inspiration-tab__card-body, .card__text_bottom-text {
   font-family: "CothamSans", Helvetica, sans-serif;
 }
@@ -154,8 +141,7 @@ font-size: 1.1rem;
 .inspiration-tab__card-link:hover {
   color: black;
 }
-/*Ksenia inspiration__tab конец*/
-/*main__ additional-page начало*/
+
 .main__additional-page {
   min-height: 40rem;
 }
@@ -175,8 +161,7 @@ font-size: 1.1rem;
 .additional-page__card-link:hover {
   color: black;
 }
-/*main__study-offer конец*/
-/*Nastya suggestproduct_page start*/
+
 .input_placeholder {
   font-family: "CothamSans", Helvetica, sans-serif;
 }
@@ -192,8 +177,6 @@ font-size: 1.1rem;
   margin-bottom: 10rem;
 }
 
-/*Nastya suggestproduct_page end*/
-/* Aida Footer начало*/
 .footer-info{
   display: flex;
   align-items: center;
@@ -291,10 +274,7 @@ font-size: 1.1rem;
     display: none;
   }
 }
-/*Aida Footer конец*/
 
-
-/* Aida open info page beginning */
 .container{
     width: 100%;
     height: 100vh;
@@ -368,4 +348,3 @@ span{
         display: none;
     }
 }
-/* Aida open info page end*/
